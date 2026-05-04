@@ -506,7 +506,7 @@
       "核心思路": "Two unknowns ($I$, $T_{eq}$) → two equations: energy balance and emission current saturation.",
       "解答过程": "- **[Equations]**:\n\n  The emitted electronics must satisfy $\\frac{1}{2}mv_z^2\\geq \\Phi$ , $v_z\\geq \\sqrt{2\\Phi/m}$\n\n  thus, $\\left\\langle \\frac{1}{2} m v_z^2\\right\\rangle=\\frac{\\int_{\\sqrt{2\\Phi/m}}^{\\infty}\\frac{1}{2}mv_z^2 \\cdot v_z f(v_z)\\,dv_z}{\\int_{\\sqrt{2\\Phi/m}}^{\\infty}v_z f(v_z)\\,dv_z}$ ,where $f(v_z)=(\\frac{m}{2\\pi k_B T})^{1/2}e^{-\\frac{m v_z^2}{2k_BT}}$\n\n  ​          $\\left\\langle \\frac{1}{2} m v_z^2\\right\\rangle=\\Phi+2k_BT$\n\n- **[Final Result]:**\n\n  1. Energy balance: $I^2 R = \\epsilon \\sigma S T_{eq}^4 + \\frac{I (\\Phi+2k_BT)}{e}$\n  2. Current balance: $I = \\eta S A_R T_{eq}^2 \\exp\\left(-\\frac{\\Phi}{k_B T_{eq}}\\right)$",
       "最终答案": [
-        "1. Energy balance: $I^2 R = \\epsilon \\sigma S T_{eq}^4 + \\frac{I (\\Phi+2k_BT)}{e}$\n  2. Current balance: $I = \\eta S A_R T_{eq}^2 \\exp\\left(-\\frac{\\Phi}{k_B T_{eq}}\\right)$"
+        "1. Energy balance: $I^2 R = \\epsilon \\sigma S T_{eq}^4 + \\frac{I \\Phi}{e}$\n  2. Current balance: $I = \\eta S A_R T_{eq}^2 \\exp\\left(-\\frac{\\Phi}{k_B T_{eq}}\\right)$"
       ],
       "改造后答案": [
         "1. Energy balance: $I^2 R = \\epsilon \\sigma S T_{eq}^4 + \\frac{I (\\Phi+2k_BT)}{e}$\n  2. Current balance: $I = \\eta S A_R T_{eq}^2 \\exp\\left(-\\frac{\\Phi}{k_B T_{eq}}\\right)$"
